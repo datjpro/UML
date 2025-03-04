@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UML - Ngôn Ngữ Mô Hình Hóa Thống Nhất</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+      }
+      h1 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+      }
+      h2 {
+        color: #2980b9;
+        margin-top: 20px;
+      }
+      .section {
+        background-color: #f9f9f9;
+        border-left: 4px solid #3498db;
+        padding: 15px;
+        margin: 15px 0;
+      }
+      .diagram-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+      }
+      .diagram-item {
+        background-color: #ecf0f1;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>UML (Unified Modeling Language)</h1>
+
+    <div class="section">
+      <p>
+        UML là ngôn ngữ mô hình hóa thống nhất, được sử dụng để đặc tả, hình
+        dung, xây dựng và tài liệu hóa các hệ thống phần mềm cũng như các hệ
+        thống không phải phần mềm. Nó cung cấp một tập hợp các ký hiệu đồ họa để
+        biểu diễn các phần tử trong thiết kế hệ thống, giúp các nhà phát triển
+        và các bên liên quan hiểu rõ cấu trúc và hành vi của hệ thống.
+      </p>
+    </div>
+
+    <h2>Công Dụng của UML</h2>
+    <div class="section">
+      <ul>
+        <li>
+          <strong>Hình dung hệ thống:</strong> Giúp dễ dàng hình dung cấu trúc
+          và hành vi của hệ thống, tạo nên một cái nhìn bao quát và đầy đủ về hệ
+          thống dự định xây dựng.
+        </li>
+        <li>
+          <strong>Giao tiếp hiệu quả:</strong> Tạo điều kiện cho việc trao đổi
+          thông tin giữa các thành viên trong nhóm phát triển và với các bên
+          liên quan khác, đảm bảo mọi người đều có cùng hiểu biết về hệ thống.
+        </li>
+        <li>
+          <strong>Tài liệu hóa:</strong> Cung cấp tài liệu chi tiết về thiết kế
+          hệ thống, hỗ trợ trong việc bảo trì và nâng cấp sau này.
+        </li>
+        <li>
+          <strong>Phát triển hệ thống:</strong> Hỗ trợ trong việc chuyển đổi mô
+          hình thành mã nguồn trong các ngôn ngữ lập trình hướng đối tượng như
+          C++, Java, giúp quá trình phát triển trở nên hiệu quả hơn.
+        </li>
+      </ul>
+    </div>
+
+    <h2>Các Loại Biểu Đồ UML Phổ Biến</h2>
+    <div class="diagram-list">
+      <div class="diagram-item">
+        <h3>1. Sơ Đồ Lớp</h3>
+        <p>Biểu diễn các lớp trong hệ thống và mối quan hệ giữa chúng.</p>
+      </div>
+      <div class="diagram-item">
+        <h3>2. Sơ Đồ Đối Tượng</h3>
+        <p>Mô tả trạng thái của các đối tượng tại một thời điểm cụ thể.</p>
+      </div>
+      <div class="diagram-item">
+        <h3>3. Sơ Đồ Tình Huống Sử Dụng</h3>
+        <p>
+          Mô tả các chức năng mà hệ thống cung cấp và mối quan hệ giữa các tác
+          nhân bên ngoài với các chức năng đó.
+        </p>
+      </div>
+      <div class="diagram-item">
+        <h3>4. Sơ Đồ Trình Tự</h3>
+        <p>
+          Biểu diễn thứ tự tương tác giữa các đối tượng trong một kịch bản cụ
+          thể.
+        </p>
+      </div>
+      <div class="diagram-item">
+        <h3>5. Sơ Đồ Hoạt Động</h3>
+        <p>Mô tả luồng công việc hoặc hoạt động trong hệ thống.</p>
+      </div>
+      <div class="diagram-item">
+        <h3>6. Sơ Đồ Trạng Thái</h3>
+        <p>
+          Biểu diễn các trạng thái khác nhau của một đối tượng và chuyển đổi
+          giữa các trạng thái đó.
+        </p>
+      </div>
+      <div class="diagram-item">
+        <h3>7. Sơ Đồ Thành Phần</h3>
+        <p>
+          Mô tả các thành phần vật lý của hệ thống và mối quan hệ giữa chúng.
+        </p>
+      </div>
+      <div class="diagram-item">
+        <h3>8. Sơ Đồ Triển Khai</h3>
+        <p>
+          Biểu diễn cách các thành phần phần cứng và phần mềm được triển khai
+          trong hệ thống.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <p>
+        Việc sử dụng các biểu đồ UML giúp cho việc phân tích, thiết kế và triển
+        khai hệ thống trở nên rõ ràng và có cấu trúc hơn, đảm bảo rằng tất cả
+        các yêu cầu và chức năng của hệ thống được hiểu và thực hiện đúng đắn.
+      </p>
+    </div>
+  </body>
+</html>
